@@ -11,7 +11,8 @@ A simple and elegant stopwatch built using **HTML**, **CSS**, and **JavaScript**
 
 ## 🚀 Demo
 
-![Screenshot](DemoSS.JPG)  
+  
+<img src="DemoSS.JPG" alt="Screenshot" style="width:60%; border-radius:10px;" />
 
 
 ## 🔧 Functionality Overview
