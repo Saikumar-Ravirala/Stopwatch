@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #AEC8A4;
+}
+h1{
+    color: #3B3B1A;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 3.4rem;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E7EFC7;
+    padding: 20px;
+    border-radius: 20px;
+}
+#display{
+    font-family: monospace;
+    font-size: 2rem;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: hsl(43, 28%, 38%);
+}
+#controls{
+    border: none;
+    padding: 7px;
+
+}
+#start{
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px 7px 15px;
+    max-width: 100px;
+    margin: 8px;
+    background-color: hsl(93, 40%, 64%);
+    color:#FFE6E1 ;
+    font-weight: bold;
+    font-family: monospace;
+}
+#start:hover{
+    background-color: hsl(92, 23%, 50%);
+}
+#stop{
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px 7px 15px;
+    max-width: 100px;
+    margin: 8px;
+    background-color: hsl(4, 100%, 60%);
+    color:#FFE6E1 ;
+    font-weight: bold;
+    font-family: monospace;
+}
+#stop:hover{
+    background-color: hsl(4, 63%, 43%);
+}
+#reset{
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px 7px 15px;
+    max-width: 100px;
+    margin: 8px;
+    background-color: hsl(182, 74%, 30%);
+    color:#FFE6E1 ;
+    font-weight: bold;
+    font-family: monospace;
+}
+#reset:hover{
+    background-color: hsl(182, 86%, 20%);
+}
